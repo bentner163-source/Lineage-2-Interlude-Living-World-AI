@@ -102,6 +102,27 @@
 - стиль письма подстраивается под характер;
 - не отбирают у вас монстра, которого вы уже бьёте.
 
+**Типы серверов и взросление**
+- у мира есть тип — классика (низкие рейты), крафт-сервер, ПвП-крафт или ПвП-сервер; он меняет поведение жителей: на классике они осторожнее и экономнее, на крафт-сервере больше мастерят и торгуют, на ПвП-серверах смелее точат снаряжение, чаще собираются на ПвП-местах (Goddard, Ketra, Varka, Hot Springs, Монастырь Тишины) и быстрее возвращаются в бой;
+- третья профессия, саб-класс и дворянство через квесты, а если житель застрял — по таймеру, который вы задаёте в лаунчере; уровень теперь доходит до 80;
+- заточка снаряжения: жители точат вещи, продают заточенное и ненужное в лавках, мастера делают заряды D–B;
+- к баффу в городе ходят на любых рейтах, а на Олимпиаду идут все, кто может.
+
+**Замки, Олимпиада и рейды**
+- осады замков: регистрация, штурм и захват клановыми жителями, налоги, укрепление ворот и стен, казна замка; лорд ходит к камергеру и, если замок за воротами, входит через привратника;
+- Олимпиада и герои: дворянство, запись, бои на арене, жетоны, героический статус у монумента;
+- рейд-боссы и эпические боссы (Queen Ant, Orfen, Core, Zaken, Sailren) — включаются настройкой; паром Rune — Primeval Isle и квесты на Sailren;
+- клан по просьбе: если написать клановому персонажу «возьмите в клан», придёт обычное окно приглашения — прямо от него или от лидера, которому он передаст просьбу.
+
+**Живее общение и характеры**
+- героический канал, крик, разговоры жителей между собой — из нескольких реплик, с темами по месту (рынок, замок, квесты);
+- вечера торговли (пятница) и ПвП (суббота): жители чаще говорят и зовут друг друга;
+- у каждого есть склонность — любит группы, одиночка, боец, торговец или лидер; она влияет на приглашения, места охоты, торговлю и основание кланов.
+
+**Для администратора и лаунчера**
+- игровая панель администратора: выдача профессии, предметов, навыков, адены, уровня, заточки, дворянства и героя, воскрешение, телепорт по городам, создание рейд-боссов, GM Shop, баффера и менеджера профессий, массовые действия над жителями рядом;
+- в лаунчере: тип сервера, настройки заточки и её шансов, режим «Только адена» (с монстров падают только адена и квестовые предметы), часы выдачи профессии, саб-класса и дворянства; интерфейс и установщик на русском и английском.
+
 ### Частые вопросы
 
 **Нужны ли другие игроки?** Нет. Мир живёт сам, вы выбираете, сколько в нём жителей.
@@ -112,7 +133,7 @@
 
 ### В планах
 
-Осады замков и осадные клан-холлы, Олимпиада, герои, рейды, кооперативный режим.
+Эпические боссы Baium, Antharas и Valakas, осадные клан-холлы, кооперативный режим; дальнейшая проверка и доработка осад, Олимпиады, героев и рейдов.
 
 ## English
 
@@ -214,6 +235,27 @@ Everything about your world is managed in one window, with no command line and n
 - their writing style follows their temperament;
 - they do not take a monster you are already fighting.
 
+**Server types and growth**
+- a world has a type — classic (low rates), craft server, PvP craft or PvP server; it changes how the inhabitants behave: on a classic server they are more careful and thrifty, on a craft server they craft and trade more, on PvP servers they enchant more boldly, gather at the PvP spots (Goddard, Ketra, Varka, Hot Springs, the Monastery of Silence) more often and return to the fight sooner;
+- third profession, subclass and nobility through quests, and if an inhabitant gets stuck, on a timer you set in the launcher; the level now reaches 80;
+- gear enchanting: inhabitants enchant their gear, sell enchanted and unneeded items in stalls, and craftsmen make D–B shots;
+- they visit the buffer in town at any rates, and everyone who can goes to the Olympiad.
+
+**Castles, Olympiad and raids**
+- castle sieges: registration, assault and capture by clan inhabitants, taxes, strengthening the gates and walls, the castle treasury; a lord walks to the chamberlain and, if the castle is behind its gates, enters through the doorman;
+- Olympiad and heroes: nobility, registration, arena fights, tokens, hero status at the monument;
+- raid bosses and epic bosses (Queen Ant, Orfen, Core, Zaken, Sailren) — switched on in a setting; the Rune — Primeval Isle ferry and the quests for Sailren;
+- a clan on request: if you write “take me into the clan” to a clan member, you get the ordinary invitation window — from them directly or from the leader they pass your request to.
+
+**Livelier talk and character**
+- a hero channel, shouts, conversations between inhabitants of several lines on topics fitting the place (market, castle, quests);
+- market evenings (Friday) and PvP evenings (Saturday): inhabitants talk more and call each other;
+- each one has a leaning — likes groups, a loner, a fighter, a merchant or a leader; it affects invitations, hunting places, trade and founding clans.
+
+**For the administrator and the launcher**
+- an in-game administrator panel: granting professions, items, skills, adena, levels, enchant, nobility and hero status, resurrection, teleport to towns, spawning raid bosses, the GM Shop, the buffer and the profession manager, mass actions on nearby inhabitants;
+- in the launcher: server type, enchant settings and chances, “Only adena” mode (monsters drop only adena and quest items), hours for profession, subclass and nobility; the interface and the installer in Russian and English.
+
 ### FAQ
 
 **Do I need other players?** No. The world lives on its own; you choose how many inhabitants it has.
@@ -224,5 +266,4 @@ Everything about your world is managed in one window, with no command line and n
 
 ### Planned
 
-Castle sieges and siege clan halls, Olympiad, heroes, raids, cooperative mode.
-
+The epic bosses Baium, Antharas and Valakas, siege clan halls, cooperative mode; further testing and polish of sieges, Olympiad, heroes and raids.
