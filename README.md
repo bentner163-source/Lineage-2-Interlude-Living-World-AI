@@ -4,8 +4,6 @@
 
 ## Русский
 
-> Публичная публикация установщика 1.0 готовится.
-
 **Living World** — одиночная игра в Lineage II Interlude, в которой мир живёт и без других игроков. Вы создаёте свой мир на своём компьютере, выбираете скорость развития и количество жителей и играете в удобном темпе. Рядом с вами охотятся, торгуют, учатся, заводят друзей и кланы персонажи, которыми управляет компьютер. У каждого свой характер, привычки, друзья и цели. Мир и персонажи сохраняются между запусками.
 
 Игровой клиент в комплект не входит: нужна ваша собственная копия Lineage II Interlude.
@@ -117,8 +115,6 @@
 Осады замков и осадные клан-холлы, Олимпиада, герои, рейды, кооперативный режим.
 
 ## English
-
-> The public 1.0 installer is being prepared.
 
 **Living World** is a single-player Lineage II Interlude game in which the world lives on without other players. You create your own world on your own computer, choose the pace of progress and the number of inhabitants, and play at your own speed. Computer-controlled characters hunt, trade, learn, make friends and clans around you. They behave like real players: each has its own temperament, habits, friends and goals. Your world and its characters persist between sessions.
 
