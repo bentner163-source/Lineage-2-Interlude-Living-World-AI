@@ -10,7 +10,7 @@
 
 ### Установка
 
-1. Скачайте `LivingWorld-Setup.exe` из раздела [Releases](https://github.com/bentner163-source/living-world-downloads/releases/tag/v1.0) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
+1. Скачайте `LivingWorld-Setup.exe` из раздела [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/v1.0) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
 2. В окне установщика выберите папку (подойдёт предложенная), при желании оставьте галочку «Создать ярлыки» и нажмите «Установить». Установка занимает несколько минут.
 3. Нажмите «Готово» — Living World запустится. Создайте или выберите мир.
 4. При первом запуске укажите файл `system\L2.exe` из вашей копии Interlude и введите игровой логин и пароль в окне игры.
@@ -122,7 +122,7 @@ The game client is not included: you need your own copy of Lineage II Interlude.
 
 ### Installation
 
-1. Download `LivingWorld-Setup.exe` from [Releases](https://github.com/bentner163-source/living-world-downloads/releases/tag/v1.0) and run it. If Windows shows a SmartScreen warning, click “More info” → “Run anyway”.
+1. Download `LivingWorld-Setup.exe` from [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/v1.0) and run it. If Windows shows a SmartScreen warning, click “More info” → “Run anyway”.
 2. In the setup window choose a folder (the suggested one is fine), keep “Create shortcuts” if you like, and click “Install”. It takes a few minutes.
 3. Click “Finish” — Living World starts. Create or select a world.
 4. On first launch pick `system\L2.exe` from your copy of Interlude and enter your game login and password in the game window.
