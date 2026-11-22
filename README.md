@@ -17,7 +17,7 @@
 
 Чтобы рядом появились персонажи под управлением компьютера, задайте их количество в окне «Население ИИ…» при остановленном мире (ноль — мир без них). Закрывая игру, выйдите из неё и нажмите «Остановить» до закрытия лаунчера.
 
-После установки версии 1.0 следующие обновления доступны через «Проверить обновления». Лаунчер скачивает только изменившиеся компоненты. Перед применением обновления остановите мир.
+Остановите мир и нажмите **«Проверить и обновить»**. Лаунчер скачает и установит только изменившиеся компоненты. Если проверка отключена или не запускается, закройте лаунчер и распакуйте [архив для ручной замены](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/download/v1.0/LivingWorld-Launcher-Update-1.0.zip) в папку игры с заменой файлов.
 
 ### Перед запуском мира
 
@@ -55,7 +55,7 @@
 - «Выбрать / проверить клиент…» — укажите свою копию Lineage II Interlude, программа проверит её;
 - «Учётная запись…» — логин и пароль к вашему локальному миру (пароль хранится в защищённом виде для вашего пользователя Windows); права владельца мира привязываются к этой записи;
 - «Автовход» — вход в игру без ручного ввода (экспериментально);
-- «Установка и обновление…» и «Проверить обновления» — установка комплекта из файла и проверка новых версий.
+- «Проверить и обновить» — проверка, загрузка и установка обновлений. «Установка и обновление…» открывает ручной мастер.
 
 ### Что реализовано
 
@@ -152,7 +152,7 @@ The game client is not included: you need your own copy of Lineage II Interlude.
 
 To have computer-controlled characters around you, set their number under “Население ИИ…” (AI Population) while the world is stopped (zero means a world without them). When you finish, exit the game and click “Остановить” (Stop) before closing the launcher.
 
-After installing 1.0, use **Check for updates** for subsequent releases. The launcher downloads only changed components. Stop your world before applying an update.
+Stop your world and select **Check and update**. The launcher downloads and installs only changed components. If update checks are disabled or fail to start, close the launcher and extract the [manual replacement ZIP](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/download/v1.0/LivingWorld-Launcher-Update-1.0.zip) into the installation folder, replacing existing files.
 
 ### Before starting your world
 
@@ -190,7 +190,7 @@ Everything about your world is managed in one window, with no command line and n
 - “Choose / check client…” — point to your own copy of Lineage II Interlude and the program checks it;
 - “Account…” — the login and password for your local world (the password is stored protected for your Windows user); the world owner's rights are tied to this account;
 - “Auto-login” — enter the game without typing (experimental);
-- “Setup and update…” and “Check for updates” — installing a package from a file and checking for new versions.
+- “Check and update” checks, downloads, and installs updates. “Install and update…” opens the manual wizard.
 
 ### What is implemented
 
