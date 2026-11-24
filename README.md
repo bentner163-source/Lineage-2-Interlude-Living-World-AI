@@ -1,23 +1,21 @@
-# Living World 1.0
+# Living World
 
 [Русский](#русский) · [English](#english)
 
 ## Русский
 
-**Living World** — одиночная игра в Lineage II Interlude, в которой мир живёт и без других игроков. Вы создаёте свой мир на своём компьютере, выбираете скорость развития и количество жителей и играете в удобном темпе. Рядом с вами охотятся, торгуют, учатся, заводят друзей и кланы персонажи, которыми управляет компьютер. У каждого свой характер, привычки, друзья и цели. Мир и персонажи сохраняются между запусками.
+**Living World** — одиночная игра в Lineage II Interlude, в которой мир живёт и без других игроков. Вы создаёте свой мир на своём компьютере, выбираете скорость развития и количество ИИ-персонажей и играете в удобном темпе. Рядом с вами охотятся, торгуют, учатся, заводят друзей и кланы персонажи, которыми управляет компьютер. У каждого свой характер, привычки, друзья и цели. Мир и персонажи сохраняются между запусками.
 
 Игровой клиент в комплект не входит: нужна ваша собственная копия Lineage II Interlude.
 
 ### Установка
 
-1. Скачайте `LivingWorld-Setup.exe` из раздела [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/v1.0) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
+1. Скачайте `LivingWorld-Setup.exe` из раздела [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/stable-v1.1.0) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
 2. В окне установщика выберите папку (подойдёт предложенная), при желании оставьте галочку «Создать ярлыки» и нажмите «Установить». Установка занимает несколько минут.
 3. Нажмите «Готово» — Living World запустится. Создайте или выберите мир.
 4. При первом запуске укажите файл `system\L2.exe` из вашей копии Interlude и введите игровой логин и пароль в окне игры.
 
 Чтобы рядом появились персонажи под управлением компьютера, задайте их количество в окне «Население ИИ…» при остановленном мире (ноль — мир без них). Закрывая игру, выйдите из неё и нажмите «Остановить» до закрытия лаунчера.
-
-Остановите мир и нажмите **«Проверить и обновить»**. Лаунчер скачает и установит только изменившиеся компоненты. Если проверка отключена или не запускается, закройте лаунчер и распакуйте [архив для ручной замены](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/download/v1.0/LivingWorld-Launcher-Update-1.0.zip) в папку игры с заменой файлов.
 
 ### Перед запуском мира
 
@@ -27,7 +25,7 @@
 
 ### Как это выглядит
 
-Вы входите в мир, а он уже идёт своим чередом. У дороги стоят личные магазины, в городе кто-то ищет группу на охоту, а на поляне двое друзей охотятся вместе и пишут в чат, как прошёл день. Один из жителей давно копит на новое снаряжение и всем об этом рассказывает, другой устал и сел отдохнуть («брб»), третий зовёт в клан. Вы можете просто смотреть, можете вступить в группу, торговать, дружить, ссориться и воевать — мир реагирует на ваши поступки и помнит их.
+Вы входите в мир, а он уже идёт своим чередом. У дороги стоят личные магазины, в городе кто-то ищет группу на охоту, а на поляне двое друзей охотятся вместе и пишут в чат, как прошёл день. Один из ИИ-персонажей давно копит на новое снаряжение и всем об этом рассказывает, другой устал и сел отдохнуть («брб»), третий зовёт в клан. Вы можете просто смотреть, можете вступить в группу, торговать, дружить, ссориться и воевать — мир реагирует на ваши поступки и помнит их.
 
 ### Лаунчер
 
@@ -50,12 +48,14 @@
 **Сервисы мира**
 - «Сервисы мира…» — включение, расстановка в городах и цены трёх помощников: баффер (наборы баффов), менеджер профессий (смена профессии, дворянство, саб-класс) и магазин предметов;
 - автоизучение навыков при получении уровня, автоподбор добычи убийцей, собственная длительность баффов (1–1440 минут).
+- настройки баффов, сумки и веса, Mana Potion, профили магазина предметов, очистки предметов на земле, расстояния между лавками, мобов-чемпионов — в окнах «Настройки мира…» и «Сервисы мира…»;
+- «Осады…» — режим осад, заказ осады выбранного замка, участие ИИ-кланов и список ближайших осад.
 
 **Вы и клиент**
 - «Выбрать / проверить клиент…» — укажите свою копию Lineage II Interlude, программа проверит её;
 - «Учётная запись…» — логин и пароль к вашему локальному миру (пароль хранится в защищённом виде для вашего пользователя Windows); права владельца мира привязываются к этой записи;
 - «Автовход» — вход в игру без ручного ввода (экспериментально);
-- «Проверить и обновить» — проверка, загрузка и установка обновлений. «Установка и обновление…» открывает ручной мастер.
+- «Установка и обновление…» и «Проверить обновления» — установка комплекта из файла и проверка новых версий.
 
 ### Что реализовано
 
@@ -105,54 +105,93 @@
 - не отбирают у вас монстра, которого вы уже бьёте.
 
 **Типы серверов и взросление**
-- у мира есть тип — классика (низкие рейты), крафт-сервер, ПвП-крафт или ПвП-сервер; он меняет поведение жителей: на классике они осторожнее и экономнее, на крафт-сервере больше мастерят и торгуют, на ПвП-серверах смелее точат снаряжение, чаще собираются на ПвП-местах (Goddard, Ketra, Varka, Hot Springs, Монастырь Тишины) и быстрее возвращаются в бой;
-- третья профессия, саб-класс и дворянство через квесты, а если житель застрял — по таймеру, который вы задаёте в лаунчере; уровень теперь доходит до 80;
-- заточка снаряжения: жители точат вещи, продают заточенное и ненужное в лавках, мастера делают заряды D–B;
+- у мира есть тип — классика (низкие рейты), крафт-сервер, ПвП-крафт или ПвП-сервер; он меняет поведение ИИ-персонажей: на классике они осторожнее и экономнее, на крафт-сервере больше мастерят и торгуют, на ПвП-серверах смелее точат снаряжение, чаще собираются на ПвП-местах (Goddard, Ketra, Varka, Hot Springs, Монастырь Тишины) и быстрее возвращаются в бой;
+- третья профессия, саб-класс и дворянство через квесты, а если ИИ-персонаж застрял — по таймеру, который вы задаёте в лаунчере; уровень теперь доходит до 80;
+- заточка снаряжения: ИИ-персонажи точат вещи, продают заточенное и ненужное в лавках, мастера делают заряды D–B;
 - к баффу в городе ходят на любых рейтах, а на Олимпиаду идут все, кто может.
 
 **Замки, Олимпиада и рейды**
-- осады замков: регистрация, штурм и захват клановыми жителями, налоги, укрепление ворот и стен, казна замка; лорд ходит к камергеру и, если замок за воротами, входит через привратника;
+- осады замков: регистрация, штурм и захват клановыми ИИ-персонажами, налоги, укрепление ворот и стен, казна замка; лорд ходит к камергеру и, если замок за воротами, входит через привратника;
 - Олимпиада и герои: дворянство, запись, бои на арене, жетоны, героический статус у монумента;
 - рейд-боссы и эпические боссы (Queen Ant, Orfen, Core, Zaken, Sailren) — включаются настройкой; паром Rune — Primeval Isle и квесты на Sailren;
 - клан по просьбе: если написать клановому персонажу «возьмите в клан», придёт обычное окно приглашения — прямо от него или от лидера, которому он передаст просьбу.
 
 **Живее общение и характеры**
-- героический канал, крик, разговоры жителей между собой — из нескольких реплик, с темами по месту (рынок, замок, квесты);
-- вечера торговли (пятница) и ПвП (суббота): жители чаще говорят и зовут друг друга;
+- героический канал, крик, разговоры ИИ-персонажей между собой — из нескольких реплик, с темами по месту (рынок, замок, квесты);
+- вечера торговли (пятница) и ПвП (суббота): ИИ-персонажи чаще говорят и зовут друг друга;
 - у каждого есть склонность — любит группы, одиночка, боец, торговец или лидер; она влияет на приглашения, места охоты, торговлю и основание кланов.
 
 **Для администратора и лаунчера**
-- игровая панель администратора: выдача профессии, предметов, навыков, адены, уровня, заточки, дворянства и героя, воскрешение, телепорт по городам, создание рейд-боссов, GM Shop, баффера и менеджера профессий, массовые действия над жителями рядом;
+- игровая панель администратора: выдача профессии, предметов, навыков, адены, уровня, заточки, дворянства и героя, воскрешение, телепорт по городам, создание рейд-боссов, GM Shop, баффера и менеджера профессий, массовые действия над ИИ-персонажами рядом;
 - в лаунчере: тип сервера, настройки заточки и её шансов, режим «Только адена» (с монстров падают только адена и квестовые предметы), часы выдачи профессии, саб-класса и дворянства; интерфейс и установщик на русском и английском.
+
+**Предметы, вес и рынок**
+- свитки заточки и Life Stone складываются в стопки (настройка; в игровой панели есть кнопка «объединить одинаковые стопки» для уже лежащих в сумке);
+- очистка предметов на земле: время исчезновения, потолок числа предметов, порция удаления и аварийная очистка самых старых;
+- размер сумки (отдельно для гномов), множитель переносимого веса, галочка «без замедления от перегруза»;
+- личные магазины ИИ-персонажей не накладываются друг на друга: минимальная дистанция между лавками настраивается;
+- ИИ-персонажи надевают найденную и купленную бижутерию, пересматривают снаряжение при каждой находке, покупке, крафте или обмене и пишут в журнал, почему не надели ту или иную вещь;
+- цены в лавках следуют за конкурентами: продавец чуть подрезает соседа, а на дефицитный товар ставит наценку; мастера охотнее делают дефицитные заряды.
+
+**Баффы и помощники**
+- лимит баффов на персонаже настраивается (по умолчанию как в игре — 20); баффер умеет наборы до 40 эффектов и подстраивается под лимит;
+- шесть готовых наборов баффера: воин, маг, лучник, кинжальщик, танк, саппорт; отдельные эффекты можно выключить в лаунчере; ИИ-персонажи собирают себе личную схему баффов;
+- Mana Potion настраивается: как в игре, фиксированное количество MP или процент от максимума, сразу или постепенно, время повторного использования, запрет в бою, минимальный уровень. ИИ-персонажи пьют его, когда он действительно помогает, и покупают, если он того стоит;
+- магазин предметов (GM Shop) получил профили: всё, всё до грейда B / A / S включительно, стандартный, базовый, только расходники, свой набор категорий и «выключен». Отдельные галочки отключают ресурсы, рецепты, кристаллы и самоцветы; ИИ-персонажи пользуются тем ассортиментом, который есть.
+
+**Мобы-чемпионы**
+- часть появляющихся монстров становится сильнее и приносит больше награды: шанс, диапазон уровней, множители здоровья, атаки, защиты, опыта, SP, адены, дропа и спойла, дальность агрессии, список исключений. По умолчанию выключено;
+- рейд- и эпические боссы, сундуки, миньоны и монстры с особыми скриптами чемпионами не становятся;
+- ИИ-персонажи оценивают чемпиона по его настоящей силе: в одиночку обходят, в группе идут.
+
+**Осады замков**
+- кнопка «Осады…» в лаунчере: классический режим, ускоренный режим (осада каждого замка через заданное число часов), заказ осады выбранного замка через 15, 30, 60 минут, через своё число минут или в точное время, включение и отключение участия ИИ-кланов, список ближайших осад;
+- перед осадой идёт подготовка по этапам (объявление, сбор, выдвижение, сбор перед боем); клан-лидеры регистрируются по обычным правилам игры, участники идут к замку пешком, клановые призывы собирают их в одном месте;
+- результат осады определяет только игра; после осады записываются итоги и потери сторон;
+- в игровой панели администратора появился раздел «Осады замков»: замки, время до начала, атакующие и защитники, назначение осады, итоги.
+
+**Общение с вашей группой и обмен**
+- ИИ-персонажи принимают обмен от вас: подарки, адена, снаряжение, расходники; справедливый обмен принимается, подмена списка после вашего подтверждения не проходит, висящий обмен сам отменяется;
+- в групповом чате понимают команды по-русски и по-английски: «за мной», «стой», «идём», «бей», «не бей», «регрупп», «баф», «хил», «рес», «мана», «отходим», «фармим здесь», «в город», «помоги», «сядь», «статус»; можно обратиться по имени или написать шёпотом одному персонажу; команды лидера главнее;
+- они отвечают коротко и не все сразу, а сами сообщают группе, когда мало здоровья, маны или зелий.
+
+**Эпические боссы**
+- к списку целей ИИ-персонажей добавлены Baium, Antharas и Valakas (в настройках мира выбираются боссы, которых могут штурмовать ИИ-группы; по умолчанию выключено). Отдельная галочка разрешает ИИ-персонажам входить в логово без предметов-пропусков; без неё вход идёт по правилам игры. Эта часть пока проверена только на сервере, живая приёмка впереди.
+**Поведение и ориентирование**
+- ИИ-персонажи чаще замечают живого игрока, помогают раненому, не лезут на монстра рядом с вами, садятся отдохнуть от усталости, лучники и маги отходят от монстров на дистанцию;
+- боевые навыки используются осмысленнее: выбор по ситуации, экономия маны, переключаемые навыки, аварийные навыки спасения;
+- исправлено зацикливание у стен и в подземных деревнях: чужие маршруты больше не ведут через стену, недостижимые места откладываются вместо хождения по кругу.
+
+**Лаунчер**
+- новый внешний вид: вкладки в окнах настроек, карточки миров, цветные кнопки;
+- новые окна и поля: «Осады…», блоки «Предметы и рынок», Mana Potion, мобы-чемпионы, профили GM Shop.
 
 ### Частые вопросы
 
-**Нужны ли другие игроки?** Нет. Мир живёт сам, вы выбираете, сколько в нём жителей.
+**Нужны ли другие игроки?** Нет. Мир живёт сам, вы выбираете, сколько в нём ИИ-персонажей.
 **Нужен ли клиент игры?** Да, ваша собственная копия Lineage II Interlude. В комплект он не входит.
 **Сохраняется ли прогресс?** Да, и миры, и персонажи сохраняются между запусками.
-**Можно ли несколько миров?** Да, у каждого свои настройки и свои жители.
+**Можно ли несколько миров?** Да, у каждого свои настройки и свои ИИ-персонажи.
 **Можно ли играть без компьютерных персонажей?** Да, задайте население «0».
 
 ### В планах
 
-Эпические боссы Baium, Antharas и Valakas, осадные клан-холлы, кооперативный режим; дальнейшая проверка и доработка осад, Олимпиады, героев и рейдов.
+Осадные клан-холлы, кооперативный режим, живая проверка штурма логов эпических боссов; дальнейшая проверка и доработка осад, Олимпиады, героев и рейдов, ручная приёмка с клиентом игры (бой, обмен, команды в группе).
 
 ## English
 
-**Living World** is a single-player Lineage II Interlude game in which the world lives on without other players. You create your own world on your own computer, choose the pace of progress and the number of inhabitants, and play at your own speed. Computer-controlled characters hunt, trade, learn, make friends and clans around you. They behave like real players: each has its own temperament, habits, friends and goals. Your world and its characters persist between sessions.
+**Living World** is a single-player Lineage II Interlude game in which the world lives on without other players. You create your own world on your own computer, choose the pace of progress and the number of AI characters, and play at your own speed. Computer-controlled characters hunt, trade, learn, make friends and clans around you. They behave like real players: each has its own temperament, habits, friends and goals. Your world and its characters persist between sessions.
 
 The game client is not included: you need your own copy of Lineage II Interlude.
 
 ### Installation
 
-1. Download `LivingWorld-Setup.exe` from [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/v1.0) and run it. If Windows shows a SmartScreen warning, click “More info” → “Run anyway”.
+1. Download `LivingWorld-Setup.exe` from [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/stable-v1.1.0) and run it. If Windows shows a SmartScreen warning, click “More info” → “Run anyway”.
 2. In the setup window choose a folder (the suggested one is fine), keep “Create shortcuts” if you like, and click “Install”. It takes a few minutes.
 3. Click “Finish” — Living World starts. Create or select a world.
 4. On first launch pick `system\L2.exe` from your copy of Interlude and enter your game login and password in the game window.
 
 To have computer-controlled characters around you, set their number under “Население ИИ…” (AI Population) while the world is stopped (zero means a world without them). When you finish, exit the game and click “Остановить” (Stop) before closing the launcher.
-
-Stop your world and select **Check and update**. The launcher downloads and installs only changed components. If update checks are disabled or fail to start, close the launcher and extract the [manual replacement ZIP](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/download/v1.0/LivingWorld-Launcher-Update-1.0.zip) into the installation folder, replacing existing files.
 
 ### Before starting your world
 
@@ -162,7 +201,7 @@ AI characters are controlled by the game. There are no human players behind them
 
 ### What it looks like
 
-You enter a world that is already going about its business. Private stores line the road, someone in town is looking for a hunting party, and on a clearing two friends hunt together and chat about how the day went. One inhabitant has been saving for new gear for hours and tells everyone about it, another is tired and sits down for a rest (“brb”), a third is recruiting for a clan. You can simply watch, or join a party, trade, make friends, quarrel and go to war — the world reacts to what you do and remembers it.
+You enter a world that is already going about its business. Private stores line the road, someone in town is looking for a hunting party, and on a clearing two friends hunt together and chat about how the day went. One AI character has been saving for new gear for hours and tells everyone about it, another is tired and sits down for a rest (“brb”), a third is recruiting for a clan. You can simply watch, or join a party, trade, make friends, quarrel and go to war — the world reacts to what you do and remembers it.
 
 ### Launcher
 
@@ -185,12 +224,14 @@ Everything about your world is managed in one window, with no command line and n
 **World services**
 - “World services…” — switching on, placing in towns and prices for three helpers: a buffer (sets of buffs), a profession manager (profession change, nobility, subclass) and an item shop;
 - automatic skill learning on level-up, automatic loot pick-up by the killer, your own buff duration (1–1440 minutes).
+- settings for buffs, bag and weight, the Mana Potion, item shop profiles, cleaning of items on the ground, distance between stalls and champion monsters — in the “World settings…” and “World services…” windows;
+- “Sieges…” — the siege mode, ordering a siege of a chosen castle, AI clans in sieges and a list of the nearest sieges.
 
 **You and the client**
 - “Choose / check client…” — point to your own copy of Lineage II Interlude and the program checks it;
 - “Account…” — the login and password for your local world (the password is stored protected for your Windows user); the world owner's rights are tied to this account;
 - “Auto-login” — enter the game without typing (experimental);
-- “Check and update” checks, downloads, and installs updates. “Install and update…” opens the manual wizard.
+- “Setup and update…” and “Check for updates” — installing a package from a file and checking for new versions.
 
 ### What is implemented
 
@@ -240,34 +281,76 @@ Everything about your world is managed in one window, with no command line and n
 - they do not take a monster you are already fighting.
 
 **Server types and growth**
-- a world has a type — classic (low rates), craft server, PvP craft or PvP server; it changes how the inhabitants behave: on a classic server they are more careful and thrifty, on a craft server they craft and trade more, on PvP servers they enchant more boldly, gather at the PvP spots (Goddard, Ketra, Varka, Hot Springs, the Monastery of Silence) more often and return to the fight sooner;
-- third profession, subclass and nobility through quests, and if an inhabitant gets stuck, on a timer you set in the launcher; the level now reaches 80;
-- gear enchanting: inhabitants enchant their gear, sell enchanted and unneeded items in stalls, and craftsmen make D–B shots;
+- a world has a type — classic (low rates), craft server, PvP craft or PvP server; it changes how the AI characters behave: on a classic server they are more careful and thrifty, on a craft server they craft and trade more, on PvP servers they enchant more boldly, gather at the PvP spots (Goddard, Ketra, Varka, Hot Springs, the Monastery of Silence) more often and return to the fight sooner;
+- third profession, subclass and nobility through quests, and if an AI character gets stuck, on a timer you set in the launcher; the level now reaches 80;
+- gear enchanting: AI characters enchant their gear, sell enchanted and unneeded items in stalls, and craftsmen make D–B shots;
 - they visit the buffer in town at any rates, and everyone who can goes to the Olympiad.
 
 **Castles, Olympiad and raids**
-- castle sieges: registration, assault and capture by clan inhabitants, taxes, strengthening the gates and walls, the castle treasury; a lord walks to the chamberlain and, if the castle is behind its gates, enters through the doorman;
+- castle sieges: registration, assault and capture by clan AI characters, taxes, strengthening the gates and walls, the castle treasury; a lord walks to the chamberlain and, if the castle is behind its gates, enters through the doorman;
 - Olympiad and heroes: nobility, registration, arena fights, tokens, hero status at the monument;
 - raid bosses and epic bosses (Queen Ant, Orfen, Core, Zaken, Sailren) — switched on in a setting; the Rune — Primeval Isle ferry and the quests for Sailren;
 - a clan on request: if you write “take me into the clan” to a clan member, you get the ordinary invitation window — from them directly or from the leader they pass your request to.
 
 **Livelier talk and character**
-- a hero channel, shouts, conversations between inhabitants of several lines on topics fitting the place (market, castle, quests);
-- market evenings (Friday) and PvP evenings (Saturday): inhabitants talk more and call each other;
+- a hero channel, shouts, conversations between AI characters of several lines on topics fitting the place (market, castle, quests);
+- market evenings (Friday) and PvP evenings (Saturday): AI characters talk more and call each other;
 - each one has a leaning — likes groups, a loner, a fighter, a merchant or a leader; it affects invitations, hunting places, trade and founding clans.
 
 **For the administrator and the launcher**
-- an in-game administrator panel: granting professions, items, skills, adena, levels, enchant, nobility and hero status, resurrection, teleport to towns, spawning raid bosses, the GM Shop, the buffer and the profession manager, mass actions on nearby inhabitants;
+- an in-game administrator panel: granting professions, items, skills, adena, levels, enchant, nobility and hero status, resurrection, teleport to towns, spawning raid bosses, the GM Shop, the buffer and the profession manager, mass actions on nearby AI characters;
 - in the launcher: server type, enchant settings and chances, “Only adena” mode (monsters drop only adena and quest items), hours for profession, subclass and nobility; the interface and the installer in Russian and English.
+
+**Items, weight and the market**
+- enchant scrolls and Life Stones stack (a setting; the in-game panel has a “merge identical stacks” button for items already in the bag);
+- cleaning of items on the ground: lifetime, a cap on the number of items, a removal batch size and an emergency cleanup of the oldest;
+- bag size (dwarves separately), a carry-weight multiplier and a “no overweight slowdown” switch;
+- AI characters' private stores no longer overlap: the minimum distance between stalls is configurable;
+- AI characters wear the jewelry they find and buy, re-check their gear on every find, purchase, craft or trade, and log why they did not put a particular item on;
+- stall prices follow the competition: a seller undercuts a neighbour a little and adds a premium for scarce goods; craftsmen make scarce shots more willingly.
+
+**Buffs and helpers**
+- the buff limit per character is configurable (the game default of 20 stays unless you change it); the buffer offers sets of up to 40 effects and adapts to the limit;
+- six ready buffer sets: warrior, mage, archer, dagger, tank, support; single effects can be switched off in the launcher; AI characters build their own buff scheme;
+- the Mana Potion is configurable: as in the game, a fixed amount of MP or a percentage of the maximum, instant or gradual, cooldown, a ban in combat, a minimum level. AI characters drink it when it really helps and buy it when it is worth it;
+- the item shop (GM Shop) has profiles: everything, everything up to grade B / A / S inclusive, standard, basic, consumables only, a custom set of categories, and “off”. Separate switches remove resources, recipes, crystals and gemstones; AI characters use whatever assortment exists.
+
+**Champion monsters**
+- some spawned monsters become stronger and give better rewards: chance, level range, multipliers for health, attack, defence, experience, SP, adena, drop and spoil, aggro range, an exclusion list. Off by default;
+- raid and epic bosses, chests, minions and monsters with special scripts never become champions;
+- AI characters judge a champion by its real strength: they avoid it alone and go for it in a party.
+
+**Castle sieges**
+- a “Sieges…” button in the launcher: the classic mode, the accelerated mode (a siege of every castle after a set number of hours), an ordered siege of a chosen castle in 15, 30 or 60 minutes, in your own number of minutes or at an exact time, switching AI clans in sieges on and off, and a list of the nearest sieges;
+- the preparation before a siege runs in stages (announcement, muster, march, regroup); clan leaders register by the ordinary rules of the game, members walk to the castle, and clan calls gather them in one place;
+- only the game decides the result of a siege; the results and the losses of both sides are recorded afterwards;
+- the in-game administrator panel has a new “Castle sieges” section: castles, time to the start, attackers and defenders, ordering a siege, results.
+
+**Talking to your party and trading**
+- AI characters accept a trade from you: gifts, adena, gear, consumables; a fair exchange is accepted, swapping the list after your confirmation does not work, and a trade left hanging cancels itself;
+- in the party chat they understand commands in Russian and English: “follow me”, “stop”, “go”, “assist”, “don't attack”, “regroup”, “buff”, “heal”, “res”, “mana”, “retreat”, “farm here”, “town”, “help”, “rest”, “status”; you can address one by name or whisper to a single character; the leader's commands come first;
+- they answer briefly and not all at once, and tell the party on their own when they are low on health, mana or potions.
+
+**Epic bosses**
+- Baium, Antharas and Valakas are added to the targets of the AI characters (the world settings choose which bosses AI groups may raid; off by default). A separate switch lets AI characters enter the lair without the entry items; without it the entry follows the rules of the game. This part has so far been checked on the server only; live acceptance is still ahead.
+**Behaviour and orientation**
+- AI characters notice a live player more often, help a wounded one, do not go for a monster next to you, sit down to rest when tired, and archers and mages keep their distance from monsters;
+- combat skills are used more sensibly: chosen by the situation, saving mana, toggle skills, emergency survival skills;
+- running in circles at walls and in underground villages is fixed: routes found for someone else no longer lead through a wall, and unreachable places are put aside instead of being circled.
+
+**Launcher**
+- a new look: tabs in the settings windows, world cards, coloured buttons;
+- new windows and fields: “Sieges…”, “Items and market”, Mana Potion, champion monsters, GM Shop profiles.
 
 ### FAQ
 
-**Do I need other players?** No. The world lives on its own; you choose how many inhabitants it has.
+**Do I need other players?** No. The world lives on its own; you choose how many AI characters it has.
 **Do I need the game client?** Yes, your own copy of Lineage II Interlude. It is not included.
 **Is progress saved?** Yes, both worlds and characters persist between sessions.
-**Can I have several worlds?** Yes, each with its own settings and inhabitants.
+**Can I have several worlds?** Yes, each with its own settings and AI characters.
 **Can I play without computer-controlled characters?** Yes, set the population to “0”.
 
 ### Planned
 
-The epic bosses Baium, Antharas and Valakas, siege clan halls, cooperative mode; further testing and polish of sieges, Olympiad, heroes and raids.
+Siege clan halls, cooperative mode; further testing and polish of sieges, Olympiad, heroes and raids, and manual acceptance with the game client (combat, trading, party commands).
+
