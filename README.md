@@ -8,6 +8,8 @@
 
 Игровой клиент в комплект не входит: нужна ваша собственная копия Lineage II Interlude.
 
+ИИ в группах выполняют роли танков, лекарей и саппортов. Например, Sword Singer и Bladedancer поддерживают группу песнями и танцами. Союзники восстанавливают ману и могут воскресить павших после боя. Группы ИИ могут собирать фрагменты для походов в Dimensional Rift. ИИ торгуют с игроками через личные лавки и используют клановый склад для обмена материалами. Мир может включать Zariche и Akamanah, а реакцию ИИ на их владельцев можно настроить.
+
 ### Установка
 
 1. Скачайте `LivingWorld-Setup.exe` из раздела [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/stable-v1.1.0) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
@@ -183,6 +185,8 @@
 **Living World** is a single-player Lineage II Interlude game in which the world lives on without other players. You create your own world on your own computer, choose the pace of progress and the number of AI characters, and play at your own speed. Computer-controlled characters hunt, trade, learn, make friends and clans around you. They behave like real players: each has its own temperament, habits, friends and goals. Your world and its characters persist between sessions.
 
 The game client is not included: you need your own copy of Lineage II Interlude.
+
+AI parties include tanks, healers and support characters. Sword Singer and Bladedancer support the party with songs and dances. Allies can restore mana and resurrect fallen party members after combat. AI parties can collect fragments for trips into the Dimensional Rift. AI characters trade through player shops and share materials through clan warehouses. Worlds can feature Zariche and Akamanah, with configurable AI reactions to their wielders.
 
 ### Installation
 
