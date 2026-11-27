@@ -1,10 +1,10 @@
-# Living World
+# Prism - Interlude
 
 [Русский](#русский) · [English](#english)
 
 ## Русский
 
-**Living World** — одиночная игра в Lineage II Interlude, в которой мир живёт и без других игроков. Вы создаёте свой мир на своём компьютере, выбираете скорость развития и количество ИИ-персонажей и играете в удобном темпе. Рядом с вами охотятся, торгуют, учатся, заводят друзей и кланы персонажи, которыми управляет компьютер. У каждого свой характер, привычки, друзья и цели. Мир и персонажи сохраняются между запусками.
+**Prism - Interlude** (раньше — Living World) — одиночная игра в Lineage II Interlude, в которой мир живёт и без других игроков. Сборка разработчика **DevWS-Bentner163**. Вы создаёте свой мир на своём компьютере, выбираете скорость развития и количество ИИ-персонажей и играете в удобном темпе. Рядом с вами охотятся, торгуют, учатся, заводят друзей и кланы персонажи, которыми управляет компьютер. У каждого свой характер, привычки, друзья и цели. Мир и персонажи сохраняются между запусками.
 
 Игровой клиент в комплект не входит: нужна ваша собственная копия Lineage II Interlude.
 
@@ -12,10 +12,10 @@
 
 ### Установка
 
-1. Скачайте `LivingWorld-Setup.exe` из раздела [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/stable-v1.2.0) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
+1. Скачайте `Prism-Interlude-Setup.exe` из [последнего выпуска](https://github.com/bentner163-source/PrismLineage2/releases/latest) и запустите его. Если Windows покажет предупреждение SmartScreen, нажмите «Подробнее» → «Выполнить в любом случае».
 2. В окне установщика выберите папку (подойдёт предложенная), при желании оставьте галочку «Создать ярлыки» и нажмите «Установить». Установка занимает несколько минут.
-3. Нажмите «Готово» — Living World запустится. Создайте или выберите мир.
-4. При первом запуске укажите файл `system\L2.exe` из вашей копии Interlude и введите игровой логин и пароль в окне игры.
+3. Нажмите «Готово» — Prism запустится. Создайте или выберите мир.
+4. При первом запуске укажите файл `system\L2.exe` из вашей копии Interlude и введите игровой логин и пароль в окне игры. Адрес вашего мира в `system\l2.ini` лаунчер укажет сам, копию исходного файла он сохранит рядом (`l2.ini.prism-original`).
 
 Чтобы рядом появились персонажи под управлением компьютера, задайте их количество в окне «Население ИИ…» при остановленном мире (ноль — мир без них). Закрывая игру, выйдите из неё и нажмите «Остановить» до закрытия лаунчера.
 
@@ -23,7 +23,7 @@
 
 Внимательно изучите настройки, когда создаёте мир. Выберите его возраст, скорость развития, число ИИ-персонажей и доступные сервисы. Эти параметры определяют, каким будет мир при первом запуске.
 
-ИИ-персонажами управляет игра. За ними нет живых игроков. Их поведение может быть непредсказуемым, а привычные игровые действия иногда выполняются с ошибками. Living World продолжает дорабатываться.
+ИИ-персонажами управляет игра. За ними нет живых игроков. Их поведение может быть непредсказуемым, а привычные игровые действия иногда выполняются с ошибками. Prism продолжает дорабатываться.
 
 ### Как это выглядит
 
@@ -55,6 +55,7 @@
 
 **Вы и клиент**
 - «Выбрать / проверить клиент…» — укажите свою копию Lineage II Interlude, программа проверит её;
+- подключение к миру: перед запуском лаунчер сам вписывает адрес мира в `system\l2.ini` и хранит копию исходного файла; другие файлы клиента не меняются;
 - «Учётная запись…» — логин и пароль к вашему локальному миру (пароль хранится в защищённом виде для вашего пользователя Windows); права владельца мира привязываются к этой записи;
 - «Автовход» — вход в игру без ручного ввода (экспериментально);
 - «Установка и обновление…» и «Проверить обновления» — установка комплекта из файла и проверка новых версий.
@@ -73,7 +74,12 @@
 - дают объявления, ищут группу и клан, делятся слухами и местами для охоты;
 - запоминают, кто помог, а кто подвёл, и дружат или избегают друг друга;
 - договариваются о встречах и держат слово — даже после перезапуска мира;
-- собирают группы до четырёх человек с лекарем и защитником, приглашают и вас.
+- собирают группы до четырёх человек с лекарем и защитником, приглашают и вас;
+- меню «ИИ рядом» (Alt+B): список персонажей поблизости, разговор готовыми фразами, просьбы о бафе и хиле, приглашение в группу и клан, обмен, команды своей группе;
+- говорят о многом: где купить, рейд-боссы, осады, Олимпиада, Seven Signs, какой класс качать, откуда они и давно ли играют, шутят, подбадривают; понимают «а где?», «а ты?», «почему?» после вопроса;
+- помнят, как вы с ними обошлись: друга встречают по-дружески и уступают в цене, грубияну отвечают холодно, тому, кто их убивал, отказывают;
+- сами зовут на помощь, когда проигрывают бой, предлагают дружбу и пишут вам, когда вы заходите в игру;
+- в группе выполняют команды («за мной», «жди», «бей мою цель», «отходим», «в город», «продай лут»), а соклановцы приходят на «сбор» в клан-чате.
 
 **Торговля и услуги**
 - личные магазины в Dion, Giran и Aden; цены зависят от спроса, продавцы выставляют и забирают товар;
@@ -89,7 +95,9 @@
 - королевские стражи и рыцарские отряды;
 - альянсы между кланами;
 - аукцион клановых холлов, аренда и улучшения;
-- войны кланов.
+- войны кланов;
+- живой клан-чат: ИИ-соклановцы отвечают вам и друг другу, заводят разговоры, здороваются и поздравляют с уровнем; в окне клана видно, кто из них в сети;
+- если лидер далеко, вам скажут об этом, а приглашение придёт, когда вы окажетесь рядом.
 
 **Бои и риск**
 - дуэли между персонажами;
@@ -108,7 +116,7 @@
 
 **Типы серверов и взросление**
 - у мира есть тип — классика (низкие рейты), крафт-сервер, ПвП-крафт или ПвП-сервер; он меняет поведение ИИ-персонажей: на классике они осторожнее и экономнее, на крафт-сервере больше мастерят и торгуют, на ПвП-серверах смелее точат снаряжение, чаще собираются на ПвП-местах (Goddard, Ketra, Varka, Hot Springs, Монастырь Тишины) и быстрее возвращаются в бой;
-- третья профессия, саб-класс и дворянство через квесты, а если ИИ-персонаж застрял — по таймеру, который вы задаёте в лаунчере; уровень теперь доходит до 80;
+- третья профессия, саб-класс и дворянство через квесты, а если ИИ-персонаж застрял — по таймеру, который вы задаёте в лаунчере; уровень доходит до 80;
 - заточка снаряжения: ИИ-персонажи точат вещи, продают заточенное и ненужное в лавках, мастера делают заряды D–B;
 - к баффу в городе ходят на любых рейтах, а на Олимпиаду идут все, кто может.
 
@@ -150,7 +158,7 @@
 - кнопка «Осады…» в лаунчере: классический режим, ускоренный режим (осада каждого замка через заданное число часов), заказ осады выбранного замка через 15, 30, 60 минут, через своё число минут или в точное время, включение и отключение участия ИИ-кланов, список ближайших осад;
 - перед осадой идёт подготовка по этапам (объявление, сбор, выдвижение, сбор перед боем); клан-лидеры регистрируются по обычным правилам игры, участники идут к замку пешком, клановые призывы собирают их в одном месте;
 - результат осады определяет только игра; после осады записываются итоги и потери сторон;
-- в игровой панели администратора появился раздел «Осады замков»: замки, время до начала, атакующие и защитники, назначение осады, итоги.
+- в игровой панели администратора есть раздел «Осады замков»: замки, время до начала, атакующие и защитники, назначение осады, итоги.
 
 **Общение с вашей группой и обмен**
 - ИИ-персонажи принимают обмен от вас: подарки, адена, снаряжение, расходники; справедливый обмен принимается, подмена списка после вашего подтверждения не проходит, висящий обмен сам отменяется;
@@ -158,15 +166,15 @@
 - они отвечают коротко и не все сразу, а сами сообщают группе, когда мало здоровья, маны или зелий.
 
 **Эпические боссы**
-- к списку целей ИИ-персонажей добавлены Baium, Antharas и Valakas (в настройках мира выбираются боссы, которых могут штурмовать ИИ-группы; по умолчанию выключено). Отдельная галочка разрешает ИИ-персонажам входить в логово без предметов-пропусков; без неё вход идёт по правилам игры. Эта часть пока проверена только на сервере, живая приёмка впереди.
+- среди целей ИИ-персонажей есть Baium, Antharas и Valakas (в настройках мира выбираются боссы, которых могут штурмовать ИИ-группы; по умолчанию выключено). Отдельная галочка разрешает ИИ-персонажам входить в логово без предметов-пропусков; без неё вход идёт по правилам игры. Эта часть пока проверена только на сервере, живая приёмка впереди.
 **Поведение и ориентирование**
 - ИИ-персонажи чаще замечают живого игрока, помогают раненому, не лезут на монстра рядом с вами, садятся отдохнуть от усталости, лучники и маги отходят от монстров на дистанцию;
 - боевые навыки используются осмысленнее: выбор по ситуации, экономия маны, переключаемые навыки, аварийные навыки спасения;
 - исправлено зацикливание у стен и в подземных деревнях: чужие маршруты больше не ведут через стену, недостижимые места откладываются вместо хождения по кругу.
 
 **Лаунчер**
-- новый внешний вид: вкладки в окнах настроек, карточки миров, цветные кнопки;
-- новые окна и поля: «Осады…», блоки «Предметы и рынок», Mana Potion, мобы-чемпионы, профили GM Shop.
+- вкладки в окнах настроек, карточки миров, цветные кнопки;
+- окна и поля «Осады…», «Предметы и рынок», Mana Potion, мобы-чемпионы, профили GM Shop.
 
 ### Частые вопросы
 
@@ -175,14 +183,15 @@
 **Сохраняется ли прогресс?** Да, и миры, и персонажи сохраняются между запусками.
 **Можно ли несколько миров?** Да, у каждого свои настройки и свои ИИ-персонажи.
 **Можно ли играть без компьютерных персонажей?** Да, задайте население «0».
+**Меняет ли Prism файлы клиента?** Только адрес сервера в `system\l2.ini`, с копией исходного файла рядом (`l2.ini.prism-original`). Чтобы вернуть прежний адрес, замените `l2.ini` этой копией.
 
 ### В планах
 
-Осадные клан-холлы, кооперативный режим, живая проверка штурма логов эпических боссов; дальнейшая проверка и доработка осад, Олимпиады, героев и рейдов, ручная приёмка с клиентом игры (бой, обмен, команды в группе).
+Осадные клан-холлы, живая проверка штурма логов эпических боссов; дальнейшая проверка и доработка осад, Олимпиады, героев и рейдов, ручная приёмка с клиентом игры (бой, обмен, команды в группе).
 
 ## English
 
-**Living World** is a single-player Lineage II Interlude game in which the world lives on without other players. You create your own world on your own computer, choose the pace of progress and the number of AI characters, and play at your own speed. Computer-controlled characters hunt, trade, learn, make friends and clans around you. They behave like real players: each has its own temperament, habits, friends and goals. Your world and its characters persist between sessions.
+**Prism - Interlude** (formerly Living World) is a single-player Lineage II Interlude game in which the world lives on without other players. Built by **DevWS-Bentner163**. You create your own world on your own computer, choose the pace of progress and the number of AI characters, and play at your own speed. Computer-controlled characters hunt, trade, learn, make friends and clans around you. They behave like real players: each has its own temperament, habits, friends and goals. Your world and its characters persist between sessions.
 
 The game client is not included: you need your own copy of Lineage II Interlude.
 
@@ -190,10 +199,10 @@ AI parties include tanks, healers and support characters. Sword Singer and Blade
 
 ### Installation
 
-1. Download `LivingWorld-Setup.exe` from [Releases](https://github.com/bentner163-source/Lineage-2-Interlude-Living-World-AI/releases/tag/stable-v1.2.0) and run it. If Windows shows a SmartScreen warning, click “More info” → “Run anyway”.
+1. Download `Prism-Interlude-Setup.exe` from the [latest release](https://github.com/bentner163-source/PrismLineage2/releases/latest) and run it. If Windows shows a SmartScreen warning, click “More info” → “Run anyway”.
 2. In the setup window choose a folder (the suggested one is fine), keep “Create shortcuts” if you like, and click “Install”. It takes a few minutes.
-3. Click “Finish” — Living World starts. Create or select a world.
-4. On first launch pick `system\L2.exe` from your copy of Interlude and enter your game login and password in the game window.
+3. Click “Finish” — Prism starts. Create or select a world.
+4. On first launch pick `system\L2.exe` from your copy of Interlude and enter your game login and password in the game window. The launcher sets your world's address in `system\l2.ini` itself and keeps a copy of the original file next to it (`l2.ini.prism-original`).
 
 To have computer-controlled characters around you, set their number under “Население ИИ…” (AI Population) while the world is stopped (zero means a world without them). When you finish, exit the game and click “Остановить” (Stop) before closing the launcher.
 
@@ -201,7 +210,7 @@ To have computer-controlled characters around you, set their number under “Н�
 
 Review the settings carefully when you create a world. Choose its age, progression rates, AI population, and available services. These settings shape your world from the moment it starts.
 
-AI characters are controlled by the game. There are no human players behind them. Their behavior can be unpredictable, and they sometimes make mistakes. Living World is still in active development.
+AI characters are controlled by the game. There are no human players behind them. Their behavior can be unpredictable, and they sometimes make mistakes. Prism is still in active development.
 
 ### What it looks like
 
@@ -233,6 +242,7 @@ Everything about your world is managed in one window, with no command line and n
 
 **You and the client**
 - “Choose / check client…” — point to your own copy of Lineage II Interlude and the program checks it;
+- connecting to your world: before the start the launcher writes the world's address into `system\l2.ini` and keeps a copy of the original file; no other client file is changed;
 - “Account…” — the login and password for your local world (the password is stored protected for your Windows user); the world owner's rights are tied to this account;
 - “Auto-login” — enter the game without typing (experimental);
 - “Setup and update…” and “Check for updates” — installing a package from a file and checking for new versions.
@@ -251,7 +261,12 @@ Everything about your world is managed in one window, with no command line and n
 - post announcements, look for a party and a clan, share rumours and hunting spots;
 - remember who helped and who let them down, and befriend or avoid each other;
 - arrange meetings and keep their word — even after the world restarts;
-- form parties of up to four with a healer and a protector, and invite you too.
+- form parties of up to four with a healer and a protector, and invite you too;
+- the **AI nearby** board (Alt+B): characters around you, ready lines to talk, asking for a buff or a heal, party and clan invitations, trade, orders to your own party;
+- talk about much more: where to buy, raid bosses, sieges, the Olympiad, the Seven Signs, which class to play, where they are from and how long they play; they joke and cheer you up, and understand "where?", "you?", "why?" after a question;
+- remember how you treated them: a friend is greeted warmly and gets a better price, a rude person gets a cold answer, someone who killed them is refused;
+- call for help when they lose a fight, offer friendship and message you when you log in;
+- follow party orders ("follow me", "wait", "attack my target", "retreat", "to town", "sell the loot"), and clan members come when you call "gather" in the clan chat.
 
 **Trade and services**
 - private stores in Dion, Giran and Aden; prices follow demand, sellers stock and clear their goods;
@@ -267,7 +282,9 @@ Everything about your world is managed in one window, with no command line and n
 - royal guards and knight orders;
 - alliances between clans;
 - clan hall auctions, rent and upgrades;
-- clan wars.
+- clan wars;
+- a living clan chat: AI clan members answer you and each other, start conversations, greet you and congratulate you on a level; the clan window shows who of them is online;
+- if the leader is far away you are told so, and the invitation comes when you are near.
 
 **Combat and risk**
 - duels between characters;
@@ -286,7 +303,7 @@ Everything about your world is managed in one window, with no command line and n
 
 **Server types and growth**
 - a world has a type — classic (low rates), craft server, PvP craft or PvP server; it changes how the AI characters behave: on a classic server they are more careful and thrifty, on a craft server they craft and trade more, on PvP servers they enchant more boldly, gather at the PvP spots (Goddard, Ketra, Varka, Hot Springs, the Monastery of Silence) more often and return to the fight sooner;
-- third profession, subclass and nobility through quests, and if an AI character gets stuck, on a timer you set in the launcher; the level now reaches 80;
+- third profession, subclass and nobility through quests, and if an AI character gets stuck, on a timer you set in the launcher; the level reaches 80;
 - gear enchanting: AI characters enchant their gear, sell enchanted and unneeded items in stalls, and craftsmen make D–B shots;
 - they visit the buffer in town at any rates, and everyone who can goes to the Olympiad.
 
@@ -328,7 +345,7 @@ Everything about your world is managed in one window, with no command line and n
 - a “Sieges…” button in the launcher: the classic mode, the accelerated mode (a siege of every castle after a set number of hours), an ordered siege of a chosen castle in 15, 30 or 60 minutes, in your own number of minutes or at an exact time, switching AI clans in sieges on and off, and a list of the nearest sieges;
 - the preparation before a siege runs in stages (announcement, muster, march, regroup); clan leaders register by the ordinary rules of the game, members walk to the castle, and clan calls gather them in one place;
 - only the game decides the result of a siege; the results and the losses of both sides are recorded afterwards;
-- the in-game administrator panel has a new “Castle sieges” section: castles, time to the start, attackers and defenders, ordering a siege, results.
+- the in-game administrator panel has a “Castle sieges” section: castles, time to the start, attackers and defenders, ordering a siege, results.
 
 **Talking to your party and trading**
 - AI characters accept a trade from you: gifts, adena, gear, consumables; a fair exchange is accepted, swapping the list after your confirmation does not work, and a trade left hanging cancels itself;
@@ -336,15 +353,15 @@ Everything about your world is managed in one window, with no command line and n
 - they answer briefly and not all at once, and tell the party on their own when they are low on health, mana or potions.
 
 **Epic bosses**
-- Baium, Antharas and Valakas are added to the targets of the AI characters (the world settings choose which bosses AI groups may raid; off by default). A separate switch lets AI characters enter the lair without the entry items; without it the entry follows the rules of the game. This part has so far been checked on the server only; live acceptance is still ahead.
+- Baium, Antharas and Valakas are among the targets of the AI characters (the world settings choose which bosses AI groups may raid; off by default). A separate switch lets AI characters enter the lair without the entry items; without it the entry follows the rules of the game. This part has so far been checked on the server only; live acceptance is still ahead.
 **Behaviour and orientation**
 - AI characters notice a live player more often, help a wounded one, do not go for a monster next to you, sit down to rest when tired, and archers and mages keep their distance from monsters;
 - combat skills are used more sensibly: chosen by the situation, saving mana, toggle skills, emergency survival skills;
 - running in circles at walls and in underground villages is fixed: routes found for someone else no longer lead through a wall, and unreachable places are put aside instead of being circled.
 
 **Launcher**
-- a new look: tabs in the settings windows, world cards, coloured buttons;
-- new windows and fields: “Sieges…”, “Items and market”, Mana Potion, champion monsters, GM Shop profiles.
+- tabs in the settings windows, world cards, coloured buttons;
+- windows and fields “Sieges…”, “Items and market”, Mana Potion, champion monsters, GM Shop profiles.
 
 ### FAQ
 
@@ -353,8 +370,9 @@ Everything about your world is managed in one window, with no command line and n
 **Is progress saved?** Yes, both worlds and characters persist between sessions.
 **Can I have several worlds?** Yes, each with its own settings and AI characters.
 **Can I play without computer-controlled characters?** Yes, set the population to “0”.
+**Does Prism change client files?** Only the server address in `system\l2.ini`, with a copy of the original file next to it (`l2.ini.prism-original`). To get the old address back, replace `l2.ini` with that copy.
 
 ### Planned
 
-Siege clan halls, cooperative mode; further testing and polish of sieges, Olympiad, heroes and raids, and manual acceptance with the game client (combat, trading, party commands).
+Siege clan halls; further testing and polish of sieges, Olympiad, heroes and raids, and manual acceptance with the game client (combat, trading, party commands).
 
